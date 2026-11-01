@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#06121f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Le rond du milieu -->
+  <circle cx="12" cy="12" r="6"/>
+  <circle cx="12" cy="12" r="2"/>
+  <!-- Les 4 dents : haut, bas, gauche, droite -->
+  <rect x="10.5" y="2" width="3" height="4"/>
+  <rect x="10.5" y="18" width="3" height="4"/>
+  <rect x="2" y="10.5" width="4" height="3"/>
+  <rect x="18" y="10.5" width="4" height="3"/>
+  <!-- Les 4 dents en diagonale (on tourne les mêmes dents de 45 degrés) -->
+  <rect x="10.5" y="2" width="3" height="4" transform="rotate(45 12 12)"/>
+  <rect x="10.5" y="2" width="3" height="4" transform="rotate(135 12 12)"/>
+  <rect x="10.5" y="2" width="3" height="4" transform="rotate(225 12 12)"/>
+  <rect x="10.5" y="2" width="3" height="4" transform="rotate(315 12 12)"/>
+</svg>
