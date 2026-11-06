@@ -64,3 +64,12 @@ p {
   font-weight: 500;
   line-height: 1.55;
 }
+
+.choix {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(0, 229, 255, 0.3);
+}
