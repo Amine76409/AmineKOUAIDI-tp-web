@@ -207,3 +207,24 @@ p {
   animation: brille 2s ease-in-out infinite;
 }
 
+.fond-capture .choix::before,
+.fond-evasion .choix::before,
+.fond-clone .choix::before {
+  content: "Fin de l'aventure";
+}
+
+.fond-capture .scene {
+  border-color: #ff4d6d;
+  box-shadow: 0 0 40px rgba(255, 77, 109, 0.4);
+}
+
+.fond-capture h1,
+.fond-capture .choix::before {
+  color: #ff6b81;
+  text-shadow: 0 0 18px rgba(255, 77, 109, 0.6);
+}
+
+.fond-capture h1::after {
+  background-color: #ff4d6d;
+  box-shadow: 0 0 12px #ff4d6d;
+}
