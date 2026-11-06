@@ -101,3 +101,9 @@ p {
   box-shadow: 0 6px 18px rgba(0, 229, 255, 0.25);
   transition: transform 0.2s, box-shadow 0.2s;
 }
+
+.bouton::after {
+  content: "→";
+  transition: transform 0.2s;
+}
+
