@@ -25,3 +25,16 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
+
+.scene {
+  width: 100%;
+  max-width: 900px;
+  padding: 26px 36px;
+  background-color: rgba(6, 16, 30, 0.72);
+  border: 1px solid var(--cyan);
+  border-radius: 20px;
+  box-shadow: 0 0 40px rgba(0, 229, 255, 0.35);
+  backdrop-filter: blur(6px);
+  animation: apparition 0.7s ease both;
+}
+
