@@ -265,3 +265,23 @@ p {
   background-color: #c77dff;
   box-shadow: 0 0 12px #c77dff;
 }
+
+@keyframes apparition {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes brille {
+  0%, 100% {
+    box-shadow: 0 6px 18px rgba(0, 229, 255, 0.25);
+  }
+  50% {
+    box-shadow: 0 0 34px rgba(0, 229, 255, 0.9);
+  }
+}
