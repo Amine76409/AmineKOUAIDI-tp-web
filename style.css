@@ -344,3 +344,33 @@ p {
   background-color: #0a2a33;
   background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.2)), url("assets/backgrounds/serveurs.svg");
 }
+
+.fond-ascenseur {
+  background-color: #2a2a33;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.2)), url("assets/backgrounds/ascenseur.svg");
+}
+
+.fond-conduit {
+  background-color: #2e2e2e;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.2)), url("assets/backgrounds/conduit.svg");
+}
+
+.fond-bureau {
+  background-color: #2b2214;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.2)), url("assets/backgrounds/bureau.svg");
+}
+
+.fond-capture {
+  background-color: #3a0b0b;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("assets/backgrounds/fin-capture.svg");
+}
+
+.fond-evasion {
+  background-color: #0b3a1c;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("assets/backgrounds/fin-evasion.svg");
+}
+
+.fond-clone {
+  background-color: #2a0b3a;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("assets/backgrounds/fin-clone.svg");
+}
