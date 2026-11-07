@@ -228,3 +228,24 @@ p {
   background-color: #ff4d6d;
   box-shadow: 0 0 12px #ff4d6d;
 }
+
+ .fond-evasion .scene {
+  border-color: #3dff94;
+  box-shadow: 0 0 40px rgba(61, 255, 148, 0.35);
+}
+
+.fond-evasion h1,
+.fond-evasion .choix::before {
+  color: #5dffa6;
+  text-shadow: 0 0 18px rgba(61, 255, 148, 0.6);
+}
+
+.fond-evasion h1::after {
+  background-color: #3dff94;
+  box-shadow: 0 0 12px #3dff94;
+}
+
+.fond-evasion .bouton {
+  background-image: linear-gradient(135deg, #3dff94, #1fc46c);
+  box-shadow: 0 6px 18px rgba(61, 255, 148, 0.3);
+}
