@@ -249,3 +249,19 @@ p {
   background-image: linear-gradient(135deg, #3dff94, #1fc46c);
   box-shadow: 0 6px 18px rgba(61, 255, 148, 0.3);
 }
+
+.fond-clone .scene {
+  border-color: #c77dff;
+  box-shadow: 0 0 40px rgba(199, 125, 255, 0.4);
+}
+
+.fond-clone h1,
+.fond-clone .choix::before {
+  color: #d9a8ff;
+  text-shadow: 0 0 18px rgba(199, 125, 255, 0.6);
+}
+
+.fond-clone h1::after {
+  background-color: #c77dff;
+  box-shadow: 0 0 12px #c77dff;
+}
