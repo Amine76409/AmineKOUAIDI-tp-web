@@ -320,3 +320,27 @@ p {
   }
 }
 
+.fond-accueil {
+  background-color: #0b1a2b;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.2)), url("assets/backgrounds/accueil.svg");
+}
+
+.fond-cellule {
+  background-color: #1c2733;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.2)), url("assets/backgrounds/cellule.svg");
+}
+
+.fond-couloir {
+  background-color: #2b1520;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.2)), url("assets/backgrounds/couloir.svg");
+}
+
+.fond-badge {
+  background-color: #1c2733;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.2)), url("assets/backgrounds/badge.svg");
+}
+
+.fond-serveurs {
+  background-color: #0a2a33;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.2)), url("assets/backgrounds/serveurs.svg");
+}
